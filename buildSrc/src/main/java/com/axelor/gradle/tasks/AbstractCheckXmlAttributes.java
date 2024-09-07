@@ -4,6 +4,7 @@ import com.axelor.gradle.tasks.xmlcheck.XmlLineException;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.XMLConstants;
