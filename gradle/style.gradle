@@ -6,7 +6,7 @@ buildscript {
     classpath "com.diffplug.spotless:spotless-plugin-gradle:4.5.1"
   }
 }
-File spotlessXmlFile = file("${projectDir}/gradle/spotless.xml.prefs")
+//File spotlessXmlFile = file("${projectDir}/gradle/spotless.xml.prefs")
 allprojects { p ->
 
   apply plugin: com.diffplug.gradle.spotless.SpotlessPlugin
@@ -33,7 +33,7 @@ allprojects { p ->
         exclude '**/out/**'
         exclude '**/.idea/**'
       }
-      //eclipseWtp('xml').configFile(spotlessXmlFile)
+      //clipseWtp('xml').configFile(spotlessXmlFile)
       //trimTrailingWhitespace()
     }
   }
