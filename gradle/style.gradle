@@ -47,4 +47,4 @@ allprojects { p ->
   build.dependsOn 'spotlessApply'
 }
 
-task formatCode(dependsOn: ['licenseFormat', 'spotlessApply'])
+tasks.register('formatCode') { dependsOn['licenseFormat', 'spotlessApply'] }
