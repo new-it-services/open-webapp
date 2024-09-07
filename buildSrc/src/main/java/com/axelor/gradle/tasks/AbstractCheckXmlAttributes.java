@@ -90,7 +90,7 @@ public abstract class AbstractCheckXmlAttributes extends DefaultTask {
 
   protected void addErrorsProperlyToErrorList(List<String> errorList, @javax.annotation.Nonnull Exception error) {
     if (!error.getLocalizedMessage().startsWith("cvc-elt.1.a")) {
-      errorList.addAll(List.of(error.toString()));
+      errorList.addAll(List.of(error.toString().split(";")));
     }
   }
 }
