@@ -22,7 +22,7 @@ import org.gradle.api.tasks.TaskAction;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
-import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.NonNls;
 
 public abstract class AbstractCheckXmlAttributes extends DefaultTask {
 
