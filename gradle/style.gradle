@@ -19,7 +19,7 @@ allprojects { p ->
         exclude '**/bin/**'
         exclude '**/out/**'
       }
-      googleJavaFormat()
+      //googleJavaFormat()
     }
     xml {
       target fileTree(projectDir) {
